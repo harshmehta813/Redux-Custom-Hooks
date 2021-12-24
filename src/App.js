@@ -1,4 +1,5 @@
 import useTimer from "./hook/useTimer";
+import Counter from "./Counter/Counter";
 import "./styles.css";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
 				<button onClick={pauseTimer}>PAUSE</button>
 				<button onClick={resetTimer}>RESET</button>
 			</div>
+			<Counter />
 		</div>
 	);
 }
