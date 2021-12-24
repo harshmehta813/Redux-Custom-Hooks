@@ -28,3 +28,10 @@ button {
 	height: 50px;
 	border-radius: 100%;
 }
+hr {
+	width: 99%;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
