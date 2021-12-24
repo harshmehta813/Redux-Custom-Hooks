@@ -30,7 +30,7 @@ function useTimer({ initialValue = 0 }) {
   useEffect(() => {
     // * cleanup
     return pauseTimer;
-  });
+  },[]);
 
   return { value, startTimer, pauseTimer, resetTimer };
 }
